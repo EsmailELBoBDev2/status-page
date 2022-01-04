@@ -181,7 +181,7 @@ params:
     - name: Mail
       category: Self-hosted
     - name: Status Page
-      description: This page you see right now.
+      description: The page you are seeing right now.
       category: Uncategorized
 
   # What date format to use?
