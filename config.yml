@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Status Page
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://status.esmailelbob.xyz/
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,10 +143,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
+    - name: Self-hosted
+      description: All sites that are self-hosted on my old computer are located here.
+      closed: false
+    - name: Other
+      description: Everything else that are not hosted on my old computer are located here.
+      closed: false
     - name: Uncategorized
       untitled: true
 
@@ -158,15 +160,28 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Main site
+      category: Self-hosted
+    - name: Bibliogram
+      category: Self-hosted
+    - name: Libreddit
+      category: Self-hosted
+    - name: Invidious
+      category: Self-hosted
+    - name: RSS-Bridge
+      category: Self-hosted
+    - name: Blog
+      category: Self-hosted
+    - name: Pixelfed
+      category: Self-hosted
+    - name: Nextcloud
+      category: Self-hosted
+    - name: XMPP
+      category: Self-hosted
+    - name: Mail
+      category: Self-hosted
+    - name: Status Page
+      description: This page you see right now.
       category: Uncategorized
 
   # What date format to use?
@@ -238,7 +253,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "yearly"
+  incidentHistoryFormat: "monthly"
 
   # Should incident history be hidden?
   #
