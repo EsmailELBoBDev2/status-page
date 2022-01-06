@@ -145,10 +145,10 @@ params:
   categories:
     - name: Self-hosted
       description: All sites that are self-hosted on my old computer are located here.
-      closed: false
+      closed: true
     - name: Other
       description: Everything else that are not hosted on my old computer are located here.
-      closed: false
+      closed: true
     - name: Uncategorized
       untitled: true
 
@@ -160,27 +160,27 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Main site
+    - name: Main site - https://esmailelbob.xyz
       category: Self-hosted
-    - name: Bibliogram
+    - name: Bibliogram - https://bibliogram.esmailelbob.xyz
       category: Self-hosted
-    - name: Libreddit
+    - name: Libreddit - https://libreddit.esmailelbob.xyz
       category: Self-hosted
-    - name: Invidious
+    - name: Invidious - https://invidious.esmailelbob.xyz
       category: Self-hosted
-    - name: RSS-Bridge
+    - name: RSS-Bridge - https://rss-bridge.esmailelbob.xyz
       category: Self-hosted
-    - name: Blog
+    - name: Blog - https://blog.esmailelbob.xyz
       category: Self-hosted
-    - name: Pixelfed
+    - name: Pixelfed - https://pixelfed.esmailelbob.xyz
       category: Self-hosted
-    - name: Nextcloud
+    - name: Nextcloud - https://nextcloud.esmailelbob.xyz
       category: Self-hosted
-    - name: XMPP
+    - name: XMPP - https://groups.esmailelbob.xyz
       category: Self-hosted
-    - name: Mail
+    - name: Mail - https://mail.esmailelbob.xyz
       category: Self-hosted
-    - name: Status Page
+    - name: Status Page - https://status.esmailelbob.xyz/
       description: The page you are seeing right now.
       category: Uncategorized
 
