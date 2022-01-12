@@ -170,7 +170,7 @@ params:
       category: Self-hosted
     - name: RSS-Bridge - https://rss-bridge.esmailelbob.xyz
       category: Self-hosted
-    - name: Blog - https://blog.esmailelbob.xyz
+    - name: WriteFreely - https://blog.esmailelbob.xyz
       category: Self-hosted
     - name: Pixelfed - https://pixelfed.esmailelbob.xyz
       category: Self-hosted
