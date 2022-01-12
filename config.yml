@@ -182,7 +182,7 @@ params:
       category: Self-hosted
     - name: MailCow - https://mail.esmailelbob.xyz
       category: Self-hosted
-    - name: Status Page - https://status.esmailelbob.xyz/ - Hosted on Netlify
+    - name: Status Page - https://status.esmailelbob.xyz - Hosted on Netlify
       description: The page you are seeing right now.
       category: Other
 
