@@ -145,7 +145,7 @@ params:
   categories:
     - name: Self-hosted
       description: All sites that are self-hosted on my old computer are located here.
-      closed: true
+      closed: false
     - name: Other
       description: Everything else that are not hosted on my old computer are located here.
       closed: true
@@ -176,13 +176,15 @@ params:
       category: Self-hosted
     - name: Nextcloud - https://nextcloud.esmailelbob.xyz
       category: Self-hosted
-    - name: XMPP - https://groups.esmailelbob.xyz
+    - name: Snikket - https://groups.esmailelbob.xyz
       category: Self-hosted
-    - name: Mail - https://mail.esmailelbob.xyz
+    - name: Mastodon - https://social.esmailelbob.xyz
       category: Self-hosted
-    - name: Status Page - https://status.esmailelbob.xyz/
+    - name: MailCow - https://mail.esmailelbob.xyz
+      category: Self-hosted
+    - name: Status Page - https://status.esmailelbob.xyz/ - Hosted on Netlify
       description: The page you are seeing right now.
-      category: Uncategorized
+      category: Other
 
   # What date format to use?
   #
