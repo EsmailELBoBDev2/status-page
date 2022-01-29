@@ -188,7 +188,7 @@ params:
       category: Private use services
     - name: Status Page - https://status.esmailelbob.xyz - Hosted on Netlify
       description: The page you are seeing right now.
-      category: Other
+      category: Uncategorized
 
   # What date format to use?
   #
