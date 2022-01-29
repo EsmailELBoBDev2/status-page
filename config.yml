@@ -143,11 +143,11 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Self-hosted
-      description: All sites that are self-hosted on my old computer are located here.
+    - name: Public use services
+      description: Feel free to use any of these sites!
       closed: false
-    - name: Other
-      description: Everything else that are not hosted on my old computer are located here.
+    - name: Private use services
+      description: These are my private use services so yup!
       closed: true
     - name: Uncategorized
       untitled: true
@@ -161,29 +161,31 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Main site - https://esmailelbob.xyz
-      category: Self-hosted
+      category: Public use services
     - name: Bibliogram - https://bibliogram.esmailelbob.xyz
-      category: Self-hosted
+      category: Public use services
     - name: Libreddit - https://libreddit.esmailelbob.xyz
-      category: Self-hosted
+      category: Public use services
     - name: Invidious - https://invidious.esmailelbob.xyz
-      category: Self-hosted
+      category: Public use services
     - name: RSS-Bridge - https://rss-bridge.esmailelbob.xyz
-      category: Self-hosted
+      category: Public use services
     - name: Searx - https://searx.esmailelbob.xyz
-      category: Self-hosted      
-    - name: WriteFreely - https://blog.esmailelbob.xyz
-      category: Self-hosted
-    - name: Pixelfed - https://pixelfed.esmailelbob.xyz
-      category: Self-hosted
-    - name: Nextcloud - https://nextcloud.esmailelbob.xyz
-      category: Self-hosted
-    - name: Snikket - https://groups.esmailelbob.xyz
-      category: Self-hosted
-    - name: Mastodon - https://social.esmailelbob.xyz
-      category: Self-hosted
-    - name: MailCow - https://mail.esmailelbob.xyz
-      category: Self-hosted
+      category: Public use services      
+    - name: WriteFreely
+      category: Private use services
+    - name: Pixelfed
+      category: Private use services
+    - name: Nextcloud
+      category: Private use services
+    - name: Snikket
+      category: Private use services
+    - name: Mastodon
+      category: Private use services
+    - name: MailCow
+      category: Private use services
+    - name: Pi-Hole
+      category: Private use services
     - name: Status Page - https://status.esmailelbob.xyz - Hosted on Netlify
       description: The page you are seeing right now.
       category: Other
