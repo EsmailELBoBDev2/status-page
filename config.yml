@@ -172,6 +172,8 @@ params:
       category: Public use services
     - name: Searx - https://searx.esmailelbob.xyz
       category: Public use services      
+    - name: Nitter - https://nitter.esmailelbob.xyz
+      category: Public use services
     - name: WriteFreely
       category: Private use services
     - name: Pixelfed
