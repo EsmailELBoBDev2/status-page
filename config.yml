@@ -176,7 +176,7 @@ params:
       category: Public use services
     - name: WriteFreely
       category: Private use services
-    - name: Gitea - https://git.esmailelbob.xyz
+    - name: Gitea
       category: Private use services
     - name: Pixelfed
       category: Private use services
